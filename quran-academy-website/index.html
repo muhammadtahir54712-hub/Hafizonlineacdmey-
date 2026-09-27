@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hafiz Quran Academy | Online Quran & Tajweed Classes</title>
+  <meta name="description" content="Learn Quran online with structured Quran reading, Tajweed, Qaida, Hifz and personalized classes for children, adults and families.">
+  
+  <!-- OpenGraph & Twitter -->
+  <meta property="og:title" content="Hafiz Quran Academy | Online Quran & Tajweed Classes">
+  <meta property="og:description" content="Learn Quran online with structured Quran reading, Tajweed, Qaida, Hifz and personalized classes for children, adults and families.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero-quran.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230F5C4D' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z'/><path d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z'/></svg>">
+
+  <!-- Google Fonts: Playfair Display, Plus Jakarta Sans, Amiri -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. Header / Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo">
+        <div class="brand-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            <path d="M12 7v14"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Hafiz</span>
+          <span class="brand-tag">Quran Academy</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">What We Teach</a></li>
+          <li><a href="#courses" class="nav-link">Courses</a></li>
+          <li><a href="#why-us" class="nav-link">Why Us</a></li>
+          <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-whatsapp" onclick="openWhatsApp()" title="Chat on WhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        </button>
+        <button class="btn btn-primary open-trial-modal">Start Free Trial</button>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- 2. Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-eyebrow">
+          <span class="font-arabic" style="font-size: 16px;">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</span>
+          <span>·</span>
+          <span>ONLINE QURAN ACADEMY</span>
+        </div>
+        <h1 class="hero-title">
+          Learn the Quran with <span class="highlight">Confidence</span> & Tajweed
+        </h1>
+        <p class="hero-subtitle">
+          Build a strong connection with the Quran through clear, personal and step-by-step online lessons designed for children, adults and families.
+        </p>
+        <div class="hero-benefits">
+          <div class="benefit-item">
+            <span class="benefit-icon">✓</span>
+            <span>Learn Quran reading from basics</span>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">✓</span>
+            <span>Improve Tajweed & pronunciation</span>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">✓</span>
+            <span>Flexible online classes from home</span>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">✓</span>
+            <span>Personal attention from experienced teacher</span>
+          </div>
+        </div>
+        <div class="hero-cta-group">
+          <button class="btn btn-primary open-trial-modal">Book a Free Trial</button>
+          <a href="#courses" class="btn btn-secondary">View Courses</a>
+        </div>
+        <div class="hero-trust-row">
+          <span>✓ 100% Free Trial Class</span>
+          <span>·</span>
+          <span>★ 4.9/5 Rating from 450+ Students</span>
+          <span>·</span>
+          <span>✓ Female Tutors Available</span>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <img src="images/hero-quran.jpg" alt="Open Quran on handcrafted wooden rehal with warm daylight">
+        <div class="hero-floating-badge">
+          <span style="color: var(--color-gold-muted);">★</span>
+          <div>
+            <div style="font-weight: 700; font-size: 13px;">Quran • Tajweed • Guidance</div>
+            <div style="font-size: 11px; color: var(--color-slate-text);">1-on-1 Zoom & Meet Sessions</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Trust Strip -->
+  <section class="trust-strip">
+    <div class="container trust-grid">
+      <div class="trust-item">
+        <div class="trust-icon-box">🏆</div>
+        <div>
+          <div class="trust-title">Experienced Teaching</div>
+          <div class="trust-desc">Certified Huffaz with authentic Ijazah</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon-box">👤</div>
+        <div>
+          <div class="trust-title">One-to-One Attention</div>
+          <div class="trust-desc">Dedicated pace for every student</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon-box">⏱</div>
+        <div>
+          <div class="trust-title">Flexible Timings</div>
+          <div class="trust-desc">24/7 schedules across all timezones</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon-box">🌐</div>
+        <div>
+          <div class="trust-title">Online From Anywhere</div>
+          <div class="trust-desc">High-definition interactive video</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. What We Teach (Services) -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Curriculum Overview</div>
+        <h2 class="section-title">What We Teach</h2>
+        <p class="section-subtitle">Structured Quran learning for every stage of your journey.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card open-trial-modal" data-course="Quran Reading">
+          <div>
+            <div class="service-icon">📖</div>
+            <h3 class="service-title">1. Quran Reading</h3>
+            <p class="service-desc">Learn to read the Quran correctly from the basics with continuous guided practice.</p>
+            <ul class="service-features">
+              <li>Alphabet recognition & joinings</li>
+              <li>Smooth sentence fluency</li>
+            </ul>
+          </div>
+          <div class="service-action">
+            <span>Inquire Class</span>
+            <span>→</span>
+          </div>
+        </div>
+
+        <div class="service-card open-trial-modal" data-course="Noorani Qaida">
+          <div>
+            <div class="service-icon">📘</div>
+            <h3 class="service-title">2. Noorani Qaida</h3>
+            <p class="service-desc">Build strong pronunciation and reading foundations designed for kids and new readers.</p>
+            <ul class="service-features">
+              <li>Makharij articulation points</li>
+              <li>Harakat (vowel markings)</li>
+            </ul>
+          </div>
+          <div class="service-action">
+            <span>Inquire Class</span>
+            <span>→</span>
+          </div>
+        </div>
+
+        <div class="service-card open-trial-modal" data-course="Tajweed Rules">
+          <div>
+            <div class="service-icon">🔊</div>
+            <h3 class="service-title">3. Tajweed</h3>
+            <p class="service-desc">Improve Quran recitation through practical Tajweed rules and precise articulation.</p>
+            <ul class="service-features">
+              <li>Noon/Meem Sakinah & Madd</li>
+              <li>Ghunnah and Qalqalah</li>
+            </ul>
+          </div>
+          <div class="service-action">
+            <span>Inquire Class</span>
+            <span>→</span>
+          </div>
+        </div>
+
+        <div class="service-card open-trial-modal" data-course="Quran Memorization">
+          <div>
+            <div class="service-icon">⭐</div>
+            <h3 class="service-title">4. Quran Memorization</h3>
+            <p class="service-desc">Step-by-step Hifz support with systematic revision and retention guidance.</p>
+            <ul class="service-features">
+              <li>Sabaq, Sabqi and Manzil routine</li>
+              <li>Personalized revision tracking</li>
+            </ul>
+          </div>
+          <div class="service-action">
+            <span>Inquire Class</span>
+            <span>→</span>
+          </div>
+        </div>
+
+        <div class="service-card open-trial-modal" data-course="Namaz & Masnoon Duain">
+          <div>
+            <div class="service-icon">🤲</div>
+            <h3 class="service-title">5. Namaz & Masnoon Duain</h3>
+            <p class="service-desc">Learn complete method of Namaz (Salah), Wudu, Azan, 6 Kalimas, and essential daily Masnoon Duas.</p>
+            <ul class="service-features">
+              <li>Step-by-step Namaz & Wudu</li>
+              <li>Daily Masnoon Duas & 6 Kalimas</li>
+            </ul>
+          </div>
+          <div class="service-action">
+            <span>Inquire Class</span>
+            <span>→</span>
+          </div>
+        </div>
+
+        <div class="service-card open-trial-modal" data-course="Correct Recitation">
+          <div>
+            <div class="service-icon">✨</div>
+            <h3 class="service-title">6. Correct Recitation</h3>
+            <p class="service-desc">Improve pronunciation, fluency, Waqf stopping rules, and recitation confidence.</p>
+            <ul class="service-features">
+              <li>Breath control & melody</li>
+              <li>Oral correction & feedback</li>
+            </ul>
+          </div>
+          <div class="service-action">
+            <span>Inquire Class</span>
+            <span>→</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Courses Section -->
+  <section id="courses" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Structured Paths</div>
+        <h2 class="section-title">Courses Designed Around You</h2>
+        <p class="section-subtitle">Choose a learning path that fits your goals, age and schedule.</p>
+      </div>
+
+      <div class="courses-grid">
+        <!-- Course 1 -->
+        <div class="course-card">
+          <div>
+            <div class="course-target">For Kids & Adults</div>
+            <h3 class="course-name">Tajweed Foundations</h3>
+            <p class="course-desc">Ideal for students seeking accurate letter articulation and core rules.</p>
+            <ul class="course-list">
+              <li>✓ Quran reading fundamentals</li>
+              <li>✓ Noorani Qaida complete primer</li>
+              <li>✓ Basic Tajweed & Makharij</li>
+              <li>✓ Daily practice & personalized correction</li>
+            </ul>
+          </div>
+          <button class="btn btn-secondary btn-full open-trial-modal" data-course="Tajweed Foundations">Enroll Now</button>
+        </div>
+
+        <!-- Course 2 (Featured) -->
+        <div class="course-card featured">
+          <div class="course-badge">Most Popular</div>
+          <div>
+            <div class="course-target">For Women & Families</div>
+            <h3 class="course-name">Online Quran Classes</h3>
+            <p class="course-desc">Personalized private classes with flexible timings and female teacher options.</p>
+            <ul class="course-list">
+              <li>✓ Live 1-on-1 interactive lessons</li>
+              <li>✓ Fully flexible 24/7 schedule</li>
+              <li>✓ Dedicated certified female teachers</li>
+              <li>✓ Quran reading & daily Tajweed</li>
+              <li>✓ Learn safely from home</li>
+            </ul>
+          </div>
+          <button class="btn btn-primary btn-full open-trial-modal" data-course="Online Quran Classes">Book a Trial</button>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="course-card">
+          <div>
+            <div class="course-target">Hifz Program</div>
+            <h3 class="course-name">Quran Memorization</h3>
+            <p class="course-desc">A structured blueprint to memorize the Holy Quran with strong long-term retention.</p>
+            <ul class="course-list">
+              <li>✓ Memorization planning & daily quotas</li>
+              <li>✓ Daily triple-tier revision schedule</li>
+              <li>✓ Recitation correction by certified Hafiz</li>
+              <li>✓ Continuous progress tracking</li>
+            </ul>
+          </div>
+          <button class="btn btn-secondary btn-full open-trial-modal" data-course="Quran Memorization">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Special Programs -->
+  <section class="section section-sage">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Tailored Schedules</div>
+        <h2 class="section-title">Special Learning Programs</h2>
+        <p class="section-subtitle">Programs organized around school terms, weekend hours, and special needs.</p>
+      </div>
+
+      <div class="programs-grid">
+        <div class="program-card open-trial-modal" data-course="Quran Reading for Beginners">
+          <div class="program-card-header">
+            <div class="program-icon">📖</div>
+            <span class="program-tag">Ages 5+</span>
+          </div>
+          <h3 class="program-title">Quran Reading for Beginners</h3>
+          <p class="program-desc">Zero-barrier start for children and adults who have never read Arabic.</p>
+        </div>
+
+        <div class="program-card open-trial-modal" data-course="Weekend Quran Classes">
+          <div class="program-card-header">
+            <div class="program-icon">📅</div>
+            <span class="program-tag">Weekends</span>
+          </div>
+          <h3 class="program-title">Weekend Quran Classes</h3>
+          <p class="program-desc">Saturday & Sunday intensive sessions ideal for busy school children.</p>
+        </div>
+
+        <div class="program-card open-trial-modal" data-course="Kids Quran Program">
+          <div class="program-card-header">
+            <div class="program-icon">🤝</div>
+            <span class="program-tag">Engaging</span>
+          </div>
+          <h3 class="program-title">Kids Quran Program</h3>
+          <p class="program-desc">Fun, patient, and visual classes designed to inspire children's love for Quran.</p>
+        </div>
+
+        <div class="program-card open-trial-modal" data-course="Women’s Quran Classes">
+          <div class="program-card-header">
+            <div class="program-icon">🛡</div>
+            <span class="program-tag">Private</span>
+          </div>
+          <h3 class="program-title">Women’s Quran Classes</h3>
+          <p class="program-desc">Private sessions taught exclusively by certified female scholars.</p>
+        </div>
+
+        <div class="program-card open-trial-modal" data-course="Hifz & Revision">
+          <div class="program-card-header">
+            <div class="program-icon">🏆</div>
+            <span class="program-tag">Retention</span>
+          </div>
+          <h3 class="program-title">Hifz & Revision</h3>
+          <p class="program-desc">Solidify previously memorized Surahs with rigorous daily accountability.</p>
+        </div>
+
+        <div class="program-card open-trial-modal" data-course="Ramadan Quran Program">
+          <div class="program-card-header">
+            <div class="program-icon">🌙</div>
+            <span class="program-tag">Seasonal</span>
+          </div>
+          <h3 class="program-title">Ramadan Quran Program</h3>
+          <p class="program-desc">Intensive recitation and Khatam preparation for the blessed months.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. About the Teacher -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-image-wrap">
+        <img src="images/about-teacher.jpg" alt="Quran teacher study sanctuary with open Quran, Tajweed notes, and prayer beads">
+        <div class="about-audio-card">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <button class="audio-btn" id="recitationAudioBtn" title="Play Recitation Preview">▶</button>
+            <div>
+              <div style="font-weight: 700; font-size: 13px;">Listen to Recitation Standard</div>
+              <div style="font-size: 11px; color: var(--color-slate-text);" id="audioStatusText">Surah Al-Fatiha · Pure Tajweed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="section-eyebrow">About Your Teacher</div>
+        <h2 class="section-title">Personal Guidance for a Meaningful Quran Journey</h2>
+        <p style="color: var(--color-slate-text); margin-bottom: 16px; font-size: 15px;">
+          At Hafiz Quran Academy, our passion is making the Quran accessible, understandable, and deeply cherished in every home. We focus on gentle, correct reading, authentic Tajweed, and cultivating genuine spiritual love for Allah's holy words.
+        </p>
+        <p style="color: var(--color-slate-text); margin-bottom: 24px; font-size: 15px;">
+          Every student learns at a different pace. Our patient instructors adapt the lesson to you, ensuring children never feel pressured and adults receive the precise phonetic coaching they need.
+        </p>
+
+        <div class="about-credentials">
+          <div class="credential-box">
+            <div class="credential-title">✓ Patient Teaching</div>
+            <div class="credential-desc">Encouraging instruction that builds genuine self-confidence.</div>
+          </div>
+          <div class="credential-box">
+            <div class="credential-title">✓ Structured Lessons</div>
+            <div class="credential-desc">Clear milestones from letter shapes to fluent recitation.</div>
+          </div>
+          <div class="credential-box">
+            <div class="credential-title">✓ Individual Attention</div>
+            <div class="credential-desc">100% focused 1-on-1 private video or audio sessions.</div>
+          </div>
+        </div>
+
+        <button class="btn btn-primary open-trial-modal">Meet Your Teacher in a Free Trial</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Why Families Choose Us -->
+  <section id="why-us" class="section section-alt">
+    <div class="container why-grid">
+      <div class="about-image-wrap">
+        <img src="images/learning-family.jpg" alt="Family attending online Quran class on laptop at home">
+      </div>
+
+      <div>
+        <div class="section-eyebrow">Trusted by Hundreds of Homes</div>
+        <h2 class="section-title">Why Families Choose Us</h2>
+        <div class="why-features">
+          <div class="why-card">
+            <div class="why-icon">🏠</div>
+            <h3 class="why-title">Learn from home</h3>
+            <p class="why-desc">Safe, comfortable, and distraction-free study environment.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">⏰</div>
+            <h3 class="why-title">Flexible class timings</h3>
+            <p class="why-desc">Easy scheduling around school, work, and family routines.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">👤</div>
+            <h3 class="why-title">One-to-one guidance</h3>
+            <p class="why-desc">Full personal focus tailored to the student's unique capacity.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">📚</div>
+            <h3 class="why-title">Step-by-step learning</h3>
+            <p class="why-desc">Systematic progression from Qaida to beautiful recitation.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">😊</div>
+            <h3 class="why-title">Friendly environment</h3>
+            <p class="why-desc">Warm, respectful teachers who make learning joyful for children.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon">📈</div>
+            <h3 class="why-title">Progress-focused</h3>
+            <p class="why-desc">Regular feedback reports so parents track every milestone.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. How It Works -->
+  <section id="how-it-works" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">3 Simple Steps</div>
+        <h2 class="section-title">Start Your Quran Journey</h2>
+        <p class="section-subtitle">Get started in less than 24 hours with no advance payment.</p>
+      </div>
+
+      <div class="steps-wrapper">
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-num-box">01</div>
+            <h3 class="step-title">Contact Us</h3>
+            <p class="step-desc">Send us a message and tell us about your learning goals and current reading level.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num-box">02</div>
+            <h3 class="step-title">Choose Your Course</h3>
+            <p class="step-desc">Take a 100% free trial class, get evaluated, and select the schedule that suits you.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num-box">03</div>
+            <h3 class="step-title">Start Learning</h3>
+            <p class="step-desc">Join your live online classroom and embark on your lifelong Quran journey.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center;">
+        <button class="btn btn-primary open-trial-modal">Book Your Free Trial</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. Testimonials -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Parent & Student Reviews</div>
+        <h2 class="section-title">What Our Students Say</h2>
+        <p class="section-subtitle">Genuine feedback from families enrolled in our online academy.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div>
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"The lessons are easy to understand, and the step-by-step approach has helped my child become much more confident in Quran reading."</p>
+          </div>
+          <div>
+            <div class="testimonial-author">Zainab Al-Hassan</div>
+            <div class="testimonial-role">Parent of Student</div>
+            <div class="testimonial-loc">London, United Kingdom</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"As a busy working adult, having evening timings and a teacher who patiently corrects my Tajweed has made all the difference."</p>
+          </div>
+          <div>
+            <div class="testimonial-author">Dr. Farhan Tariq</div>
+            <div class="testimonial-role">Adult Quran Student</div>
+            <div class="testimonial-loc">Toronto, Canada</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Finding certified female teachers for my daughters was essential. They love their classes and look forward to them every single day."</p>
+          </div>
+          <div>
+            <div class="testimonial-author">Fatima & Omar K.</div>
+            <div class="testimonial-role">Parents of Two Students</div>
+            <div class="testimonial-loc">Dallas, Texas, USA</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"The systematic revision program helped me complete 5 Juz revision with flawless Tajweed in just three months. Truly grateful."</p>
+          </div>
+          <div>
+            <div class="testimonial-author">Bilal Mansoor</div>
+            <div class="testimonial-role">Online Hifz Student</div>
+            <div class="testimonial-loc">Sydney, Australia</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. FAQ Section -->
+  <section id="faq" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Clear Answers</div>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Everything you need to know about our classes, schedules, and software.</p>
+      </div>
+
+      <div class="faq-wrap">
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>Do you offer a free trial class?</span>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            Yes, absolutely! We offer a completely free, 30-minute one-on-one trial session with no credit card required. This allows you or your child to experience our teaching methodology, meet the instructor, and receive an honest reading level evaluation.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Are classes available for children?</span>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            Yes. We specialize in teaching children as young as 5 years old. Our instructors use interactive digital materials, patient repetition, and encouraging reinforcement to keep young learners engaged.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can women learn from home with female teachers?</span>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            Yes. We have a dedicated team of certified female Quran teachers (Alimaat and Hafizaat) available specifically for sisters, young girls, and mothers who prefer female instructors.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What timings are available?</span>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            Classes are scheduled 24 hours a day, 7 days a week to accommodate students across all timezones including North America, the UK, Europe, Australia, and the Gulf.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you teach Tajweed from beginner level?</span>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            Yes. Even if you have never studied Tajweed before, we break down rules such as Makharij (pronunciation points), Ghunnah, Qalqalah, and Madd into simple, practical exercises.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Are classes one-to-one?</span>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            All our standard classes are private, 1-on-1 sessions. This guarantees 100% individual attention from the teacher, allowing lessons to proceed exactly at your personal pace.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can students join from outside Pakistan?</span>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            Yes. Over 90% of our students reside in the United States, Canada, the United Kingdom, Australia, UAE, and Germany. All classes are conducted online via Zoom or Google Meet.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How are classes conducted online?</span>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-answer">
+            Classes are held using Zoom or Google Meet. The teacher shares high-resolution, color-coded digital Quran pages and Qaida materials on the screen with real-time audio interaction.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. Final Emerald CTA -->
+  <section class="final-cta-section">
+    <div class="container">
+      <div class="final-cta-arabic" dir="rtl">وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا</div>
+      <h2 class="final-cta-title">Ready to Begin Your Quran Journey?</h2>
+      <p class="final-cta-subtitle">
+        Take the first step toward better Quran reading, Tajweed and understanding. Schedule your 30-minute free trial session today.
+      </p>
+      <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+        <button class="btn btn-secondary open-trial-modal" style="font-size: 16px; padding: 14px 28px;">Book a Free Trial</button>
+        <button class="btn btn-whatsapp" onclick="openWhatsApp()" style="font-size: 16px; padding: 14px 24px; color: #fff; background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.3);">Message on WhatsApp</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13. Contact & Registration -->
+  <section id="contact" class="section">
+    <div class="container contact-grid">
+      <div>
+        <div class="section-eyebrow">Contact Information</div>
+        <h2 class="section-title">Speak with Admissions</h2>
+        <p style="color: var(--color-slate-text); margin-bottom: 24px;">
+          Reach out anytime to inquire about custom schedules, sibling discounts, or specific curriculum needs.
+        </p>
+
+        <div class="contact-card">
+          <div class="contact-card-inner">
+            <div style="font-size: 24px;">💬</div>
+            <div>
+              <h3 style="font-size: 16px; font-weight: 700;">WhatsApp & Phone</h3>
+              <p style="font-size: 13px; color: var(--color-slate-text); margin-bottom: 4px;">Direct call & instant chat with admissions:</p>
+              <a href="https://wa.me/923021490138" target="_blank" style="font-size: 14px; font-weight: 700; color: var(--color-emerald-deep); text-decoration: none; display: block; margin-bottom: 8px;">+92 302 1490138</a>
+              <button class="btn btn-secondary" onclick="openWhatsApp()">Message +92 302 1490138</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card-inner">
+            <div style="font-size: 24px;">✉️</div>
+            <div>
+              <h3 style="font-size: 16px; font-weight: 700;">Email Admissions</h3>
+              <p style="font-size: 13px; color: var(--color-slate-text); margin-bottom: 4px;">admissions@hafizquranacademy.com</p>
+              <span style="font-size: 11px; color: var(--color-emerald-deep);">Replies within 2 hours</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card-inner">
+            <div style="font-size: 24px;">🌐</div>
+            <div>
+              <h3 style="font-size: 16px; font-weight: 700;">Online Global Platform</h3>
+              <p style="font-size: 13px; color: var(--color-slate-text);">Zoom, Google Meet & Microsoft Teams. 24/7 global availability.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-box">
+        <form id="mainContactForm">
+          <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 6px;">Book Your Free 30-Minute Trial</h3>
+          <p style="font-size: 13px; color: var(--color-slate-text); margin-bottom: 20px;">No credit card or payment commitment required.</p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Full Name *</label>
+              <input type="text" id="contactName" required placeholder="e.g. Ahmed Khan" class="form-input">
+            </div>
+            <div class="form-group">
+              <label class="form-label">WhatsApp / Phone *</label>
+              <input type="tel" id="contactPhone" required placeholder="e.g. +1 555-0199" class="form-input">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Email Address</label>
+              <input type="email" id="contactEmail" placeholder="e.g. family@gmail.com" class="form-input">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Course Interested In</label>
+              <select id="contactCourse" class="form-select">
+                <option value="Tajweed Foundations">Tajweed Foundations</option>
+                <option value="Online Quran Classes (Women & Families)">Online Quran Classes (Women & Families)</option>
+                <option value="Quran Memorization (Hifz)">Quran Memorization (Hifz)</option>
+                <option value="Noorani Qaida">Noorani Qaida</option>
+                <option value="Namaz & Masnoon Duain">Namaz & Masnoon Duain (طریقہ نماز و مسنون دعائیں)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Student Type</label>
+              <select class="form-select">
+                <option>Child (Ages 5-14)</option>
+                <option>Adult Sister (Female Tutor)</option>
+                <option>Adult Brother</option>
+                <option>Multiple Family Members</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Preferred Class Time</label>
+              <select id="contactTime" class="form-select">
+                <option>Morning</option>
+                <option>Afternoon</option>
+                <option>Evening</option>
+                <option>Weekend</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Message / Learning Goals</label>
+            <textarea rows="3" placeholder="Tell us about previous reading experience or preferences..." class="form-textarea"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full" style="padding: 12px;">Confirm Free Trial Session</button>
+        </form>
+
+        <div id="formSuccessMessage" style="display: none; text-align: center; padding: 20px;">
+          <div style="font-size: 40px; color: var(--color-emerald-deep); margin-bottom: 12px;">✓</div>
+          <h4 style="font-size: 20px; font-weight: 700; margin-bottom: 8px;">JazakAllah Khair!</h4>
+          <p style="font-size: 14px; color: var(--color-slate-text); margin-bottom: 16px;">We have received your trial booking. Our coordinator will contact you on WhatsApp shortly.</p>
+          <button class="btn btn-primary" onclick="openWhatsApp()">Message Directly on WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 14. Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand-logo" style="margin-bottom: 16px;">
+          <div class="brand-icon" style="background: rgba(255,255,255,0.15);">📖</div>
+          <div class="brand-text">
+            <span class="brand-name" style="color: #fff;">Hafiz</span>
+            <span class="brand-tag" style="color: var(--color-gold-light);">Quran Academy</span>
+          </div>
+        </div>
+        <p style="font-size: 13px; color: rgba(221, 237, 229, 0.8); line-height: 1.6; max-width: 320px;">
+          An accredited online Quran academy dedicated to teaching children, adults, and families worldwide through patient, personalized 1-on-1 instruction.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="footer-col-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Teacher</a></li>
+          <li><a href="#services">What We Teach</a></li>
+          <li><a href="#courses">Courses & Plans</a></li>
+          <li><a href="#why-us">Why Choose Us</a></li>
+          <li><a href="#contact">Contact Academy</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-col-title">Programs</h4>
+        <ul class="footer-links">
+          <li><a href="#courses">Quran Reading</a></li>
+          <li><a href="#courses">Tajweed Rules</a></li>
+          <li><a href="#courses">Noorani Qaida</a></li>
+          <li><a href="#courses">Hifz Memorization</a></li>
+          <li><a href="#courses">Namaz & Masnoon Duain</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-col-title">Contact</h4>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/923021490138" target="_blank">WhatsApp: +92 302 1490138</a></li>
+          <li><a href="tel:+923021490138">Call: +92 302 1490138</a></li>
+          <li><a href="mailto:admissions@hafizquranacademy.com">admissions@hafizquranacademy.com</a></li>
+          <li>Online Worldwide via Zoom & Meet</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>© 2026 Quran Noor Academy. All rights reserved.</div>
+      <div style="display: flex; gap: 8px; align-items: center;">
+        <span class="font-arabic" style="font-size: 16px; color: var(--color-gold-light);" dir="rtl">الْقُرْآنُ نُورُ الْحَيَاةِ</span>
+        <span>·</span>
+        <span style="font-style: italic;">"The Quran is the light of life."</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 15. Floating WhatsApp Button -->
+  <div class="floating-whatsapp" onclick="openWhatsApp()" title="Chat with Academy Advisor">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+  </div>
+
+  <!-- 16. Free Trial Modal -->
+  <div class="modal-overlay" id="trialModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 style="font-family: var(--font-serif); font-size: 18px; font-weight: 700;">Schedule Free Trial Class</h3>
+        <button class="modal-close" id="closeTrialBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="modalTrialForm">
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" id="modalName" required placeholder="e.g. Brother Bilal" class="form-input">
+          </div>
+          <div class="form-group">
+            <label class="form-label">WhatsApp Number *</label>
+            <input type="tel" id="modalPhone" required placeholder="e.g. +1 555-0123" class="form-input">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Course</label>
+            <select id="modalCourseSelect" class="form-select">
+              <option value="Tajweed Foundations">Tajweed Foundations</option>
+              <option value="Online Quran Classes (Women & Families)">Online Quran Classes (Women & Families)</option>
+              <option value="Quran Memorization">Quran Memorization</option>
+              <option value="Noorani Qaida for Kids">Noorani Qaida for Kids</option>
+              <option value="Namaz & Masnoon Duain">Namaz & Masnoon Duain (طریقہ نماز و دعائیں)</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Book Free Evaluation</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

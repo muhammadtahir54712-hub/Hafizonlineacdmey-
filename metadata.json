@@ -1,0 +1,8 @@
+{
+  "name": "Hafiz Quran Academy - Online Quran & Tajweed Learning",
+  "description": "Learn Quran online with structured Quran reading, Tajweed, Qaida, Hifz and personalized classes for children, adults and families.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
